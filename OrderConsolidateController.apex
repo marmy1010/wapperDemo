@@ -45,7 +45,7 @@ public class OrderConsolidateController {
         
             orderItemProdWarrantyWrappers.add(ow);
         }
-
+        // add  error handiling here
         System.debug('orderItemProdWarrantyWrappers: ' + orderItemProdWarrantyWrappers);
         return orderItemProdWarrantyWrappers;
     }
