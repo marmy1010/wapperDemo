@@ -79,4 +79,8 @@ public class OrderConsolidateController {
             
         } 
     }
+
+    public class ProductListWrapper {
+    
+    }
 }
