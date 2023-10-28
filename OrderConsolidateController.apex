@@ -75,7 +75,6 @@ public class OrderConsolidateController {
             if(currentProdWarranty != null) {
                 this.warrantyEndDate = currentProdWarranty.Warranty_End_Date__c;
                 this.note = currentProdWarranty.Note__c;
-                this.isActive = currentProdWarranty.Is_Active__c;
             }
             
         } 
