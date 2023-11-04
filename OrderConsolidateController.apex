@@ -16,6 +16,7 @@ public class OrderConsolidateController {
         for(OrderItem item : orderItems) {
             contactsIds.add(item.Order.BillToContactId);
             productIds.add(item.Product2Id);   
+//
         }
 
         List<Product_Warranty__c> productWarranties = [SELECT Id, Name, Contact__c, Product__c, Warranty_End_Date__c, Is_Active__c, Note__c
