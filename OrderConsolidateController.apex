@@ -36,7 +36,7 @@ public class OrderConsolidateController {
             
         }                      
         
-        // Creating a list of OrderItemProductWarrantyWrappers for combined records
+        // Creating a list of OrderItemProductWarrantyWrappers for combined records mo
         List<OrderItemProductWarrantyWrapper> orderItemProdWarrantyWrappers = new List<OrderItemProductWarrantyWrapper>();
 
         // Loop for populating our list 
