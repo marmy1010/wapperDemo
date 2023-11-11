@@ -19,7 +19,9 @@ public class OrderConsolidateController {
 //
         }
 
-        for(){}
+        for(){
+
+        }
 
         List<Product_Warranty__c> productWarranties = [SELECT Id, Name, Contact__c, Product__c, Warranty_End_Date__c, Is_Active__c, Note__c
                                                         FROM Product_Warranty__c 
