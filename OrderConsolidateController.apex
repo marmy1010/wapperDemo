@@ -13,7 +13,7 @@ public class OrderConsolidateController {
         List<Id> productIds = new List<Id>();
         List<Id> contactsIds = new List<Id>();
 
-        for(OrderItem item : orderItems) {
+        for(OrderItem item : orderItems) { 
             contactsIds.add(item.Order.BillToContactId);
             productIds.add(item.Product2Id);   
 //
