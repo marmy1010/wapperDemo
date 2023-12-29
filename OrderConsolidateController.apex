@@ -17,6 +17,7 @@ public class OrderConsolidateController {
             contactsIds.add(item.Order.BillToContactId);
             productIds.add(item.Product2Id);
             productIds.add();
+
 //
         }
 
