@@ -11,6 +11,7 @@ public class OrderConsolidateController {
                                     WHERE OrderId =:  orderId];
         //System.debug('orderItems: ' + orderItems);
 
+
         List<Id> productIds = new List<Id>();
 
         List<Id> contactsIds = new List<Id>();
