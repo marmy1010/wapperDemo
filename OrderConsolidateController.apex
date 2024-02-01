@@ -12,6 +12,7 @@ public class OrderConsolidateController {
         //System.debug('orderItems: ' + orderItems);
 
 
+
         List<Id> productIds = new List<Id>();
 
         List<Id> contactsIds = new List<Id>();
