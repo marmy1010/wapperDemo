@@ -10,6 +10,7 @@ public class OrderConsolidateController {
                                             PricebookEntry.Product2Id, Product2Id, Order.BillToContactId, Quantity, UnitPrice 
                                     FROM OrderItem 
 
+
                                     WHERE OrderId =:  orderId];
         //System.debug('orderItems: ' + orderItems);
 
