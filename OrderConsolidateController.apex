@@ -6,6 +6,7 @@ public class OrderConsolidateController {
         // Querring Order Items of Order by OrderId received from UI
 
 
+
         List<OrderItem> orderItems = [SELECT Id, OrderId, OrderItemNumber, PricebookEntry.Product2.Name,
                                             PricebookEntry.Product2Id, Product2Id, Order.BillToContactId, Quantity, UnitPrice 
                                     FROM OrderItem 
